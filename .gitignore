@@ -11,7 +11,10 @@ temp/*.tmp
 
 # 取消对important.txt文件的忽略（即使之前有忽略.txt文件的规则）
 !important.txt
-*.gpu
-*.ptx
+git add.gitignore
+git commit -m "Add.gitignore file"
+git rm --cached test.log
+git add.gitignore
+git commit -m "Update.gitignore and remove tracked file"
 *.cubin
 *.fatbin
