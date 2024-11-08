@@ -1,5 +1,16 @@
-*.i
-*.ii
+cd /your_project_directory
+touch.gitignore
+# 忽略所有日志文件
+*.log
+
+# 忽略build目录及其下所有文件
+build/
+
+# 忽略temp目录下的所有.tmp文件
+temp/*.tmp
+
+# 取消对important.txt文件的忽略（即使之前有忽略.txt文件的规则）
+!important.txt
 *.gpu
 *.ptx
 *.cubin
